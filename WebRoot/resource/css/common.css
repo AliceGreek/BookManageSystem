@@ -1,0 +1,342 @@
+@charset "UTF-8";
+/* line 1, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+ul, body, li {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 8, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+li {
+  list-style: none; }
+
+/* line 11, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+body {
+  font-size: 12px;
+  font-family: "microsoft yahei";
+  line-height: 1.8; }
+
+/* line 39, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+.wrapper-pre-main-navbar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%; }
+
+/************************** pre-nav *********************/
+/* line 47, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+.pre-navbar {
+  background: #f8f8f8;
+  min-height: 34px;
+  line-height: 2; }
+  /* line 52, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .pre-navbar div {
+    display: inline-block; }
+  /* line 56, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .pre-navbar li {
+    padding: 2px 0;
+    display: inline-block; }
+  /* line 61, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .pre-navbar .pre-nav-lang {
+    width: 150px; }
+    @media (min-width: 768px) {
+      /* line 61, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      .pre-navbar .pre-nav-lang {
+        float: left;
+        display: inline-block; } }
+    @media (max-width: 768px) {
+      /* line 61, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      .pre-navbar .pre-nav-lang {
+        float: none;
+        display: block; } }
+    /* line 73, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .pre-navbar .pre-nav-lang div {
+      display: inline-block;
+      vertical-align: middle;
+      padding-right: 10px; }
+      /* line 78, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      .pre-navbar .pre-nav-lang div img {
+        padding-right: 5px;
+        transform: translateY(-1px); }
+  @media (min-width: 768px) {
+    /* line 84, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .pre-navbar .pre-nav-btns {
+      float: right;
+      display: inline-block; } }
+  @media (max-width: 768px) {
+    /* line 84, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .pre-navbar .pre-nav-btns {
+      float: none;
+      display: block; } }
+  /* line 95, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .pre-navbar .pre-nav-btns .pre-nav-center {
+    position: relative; }
+    /* line 98, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .pre-navbar .pre-nav-btns .pre-nav-center button {
+      height: 28px;
+      padding: 2px 10px;
+      border: 1px solid #0c0e50;
+      background: rgba(28, 30, 115, 0.78);
+      color: white; }
+    /* line 105, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .pre-navbar .pre-nav-btns .pre-nav-center .pre-nav-center-panel {
+      display: none;
+      background: url(../imgs/bg-qr.png) no-repeat;
+      position: absolute;
+      left: -15px;
+      z-index: 100;
+      width: 141px;
+      height: 182px; }
+      /* line 114, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      .pre-navbar .pre-nav-btns .pre-nav-center .pre-nav-center-panel ul {
+        padding: 24px 17px; }
+        /* line 117, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+        .pre-navbar .pre-nav-btns .pre-nav-center .pre-nav-center-panel ul li {
+          display: inline-block;
+          margin: 4px; }
+  /* line 128, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .pre-navbar .pre-nav-btns .wxwb {
+    display: inline-block;
+    margin-left: 50px; }
+    /* line 132, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .pre-navbar .pre-nav-btns .wxwb a {
+      display: inline-block;
+      width: 40px;
+      height: 18px;
+      transform: translateY(6px); }
+    /* line 139, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .pre-navbar .pre-nav-btns .wxwb .wx {
+      background: url(../imgs/wx.png) no-repeat center bottom;
+      position: relative;
+      z-index: 1001; }
+      /* line 145, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      .pre-navbar .pre-nav-btns .wxwb .wx .pre-nav-qr {
+        background: url(../imgs/bg-qr.png) no-repeat;
+        position: absolute;
+        top: 20px;
+        left: -50px;
+        z-index: 101;
+        width: 141px;
+        height: 182px;
+        text-align: center;
+        visibility: hidden;
+        transition: all 0.3s ease-out; }
+        /* line 157, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+        .pre-navbar .pre-nav-btns .wxwb .wx .pre-nav-qr img {
+          display: block;
+          width: 116px;
+          margin: 25px auto 7px; }
+    /* line 165, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .pre-navbar .pre-nav-btns .wxwb .wb {
+      background: url(../imgs/wb.png) no-repeat center bottom; }
+  /* line 171, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .pre-navbar .pre-nav-tel {
+    float: right;
+    vertical-align: super;
+    padding-left: 20px;
+    margin: 10px 0 0;
+    display: inline-block;
+    background: url(../imgs/phone.png) no-repeat;
+    line-height: 0.9;
+    padding-bottom: 9px; }
+    @media (min-width: 768px) {
+      /* line 171, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      .pre-navbar .pre-nav-tel {
+        float: right;
+        display: inline-block;
+        margin-left: 50px; } }
+    @media (max-width: 768px) {
+      /* line 171, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      .pre-navbar .pre-nav-tel {
+        float: none;
+        display: block; } }
+
+/**************************navbar & carousel *********************/
+/**************************navigation*********************/
+/*
+这里加nav和不加的区别：
+  不加，坍缩后背景无色
+  加，a的color变为白色
+*/
+/* line 324, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+.navbar-main {
+  min-height: 70px;
+  margin-bottom: 0; }
+  /* line 337, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .navbar-main a.navbar-brand {
+    padding: 0; }
+    @media (max-width: 426px) {
+      /* line 337, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      .navbar-main a.navbar-brand {
+        width: 60%;
+        transform: translateY(24%); } }
+  /* line 344, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .navbar-main a {
+    color: white;
+    font-size: 10pt; }
+  /* line 349, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .navbar-main .container {
+    padding-top: 10px; }
+    @media (min-width: 800px) and (max-width: 1200px) {
+      /* line 349, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      .navbar-main .container {
+        width: 100%; } }
+    /* line 363, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .navbar-main .container .dropdown-menu {
+      transition: all 0.7s ease-out; }
+    /* line 369, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .navbar-main .container img {
+      margin-top: -4px; }
+
+/* line 375, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+.navbar-inverse {
+  background-color: rgba(34, 34, 34, 0.75);
+  border: none; }
+  /* line 379, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .navbar-inverse .navbar-nav > li > a {
+    color: #f2f2f2; }
+
+/***************************footer********************/
+/* line 392, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+footer {
+  width: 100%;
+  background: #242427;
+  color: white;
+  padding-top: 25px; }
+  /* line 399, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  footer .div-footer {
+    width: 80%;
+    margin-bottom: 30px; }
+    /* line 403, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    footer .div-footer .div-footer-title {
+      overflow: hidden;
+      line-height: 1;
+      border-bottom: 1px solid #464646;
+      padding-bottom: 8px;
+      margin-bottom: 20px; }
+      /* line 410, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      footer .div-footer .div-footer-title .footer-first-letter {
+        font-size: 28pt;
+        float: left;
+        margin-right: 6px;
+        color: #838383; }
+      /* line 416, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+      footer .div-footer .div-footer-title .title-zh-en {
+        width: 80px;
+        overflow: hidden; }
+        /* line 420, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+        footer .div-footer .div-footer-title .title-zh-en .footer-title-zh {
+          float: left;
+          margin: 3px 0;
+          clear: right; }
+        /* line 425, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+        footer .div-footer .div-footer-title .title-zh-en .footer-title-en {
+          float: left;
+          margin: 0;
+          font-size: 10px;
+          color: #838383; }
+    /* line 436, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    footer .div-footer a {
+      padding-left: 10px;
+      background: url(../imgs/little-tri.png) no-repeat 0 center;
+      display: block;
+      color: #898989;
+      height: 30px;
+      border-bottom: 1px dotted #303030;
+      vertical-align: middle;
+      line-height: 2.4; }
+    /* line 446, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    footer .div-footer a:hover {
+      color: white;
+      text-decoration: none; }
+  /* line 453, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  footer .footer-end {
+    margin-top: 20px;
+    background: #1c1c1c;
+    width: 100%;
+    padding: 20px 0; }
+    /* line 459, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    footer .footer-end p {
+      margin: 0;
+      color: #898989; }
+
+/***********************其他页面***************************/
+/* line 470, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+.div-small-banner {
+  overflow: hidden; }
+  /* line 473, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .div-small-banner .banner-small {
+    width: 100%; }
+
+/*
+  子页面标题
+*/
+/* line 488, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+.subpage-title h2 {
+  display: inline-block; }
+
+/* line 491, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+.subpage-title .breadcrumb {
+  display: inline-block;
+  float: right; }
+
+/* line 496, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+.subpage-title .catalogue {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 11pt; }
+
+/*
+  子页面的内容
+*/
+/* line 509, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+.content {
+  background: #f0f0f0;
+  padding: 30px 80px; }
+  /* line 514, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .content h4 {
+    font-weight: bold; }
+  /* line 517, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .content p {
+    font-size: 11pt;
+    line-height: 2.4; }
+
+/*********************** fixed-bar ***************************/
+/* line 528, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+.fixed-bar {
+  position: absolute;
+  right: 0;
+  top: 180px;
+  width: 100px;
+  transition: top 0.7s ease-out;
+  text-align: center;
+  padding-bottom: 10px;
+  color: gray; }
+  /* line 540, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .fixed-bar .fixed-cc {
+    background: rgba(231, 244, 255, 0.75);
+    display: block;
+    height: 105px;
+    margin-bottom: 3px; }
+    /* line 546, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .fixed-bar .fixed-cc .fixed-cc-img {
+      width: 100%;
+      padding: 25px 0 30px;
+      width: 115%;
+      transform: translate(-6px);
+      padding: 25px 0 30px; }
+  /* line 554, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+  .fixed-bar .fixed-qr {
+    background: rgba(255, 255, 255, 0.75);
+    display: block;
+    height: 130px; }
+    /* line 559, D:/Syntheses_Projects/2016-08-22-知识库重做/css/common.scss */
+    .fixed-bar .fixed-qr .fixed-qr-img {
+      width: 100%;
+      padding: 10px; }
+
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,92 @@
+/* line 1, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+.big-title-bg {
+  background: radial-gradient(#26afff, #257ac3);
+  position: relative; }
+  /* line 5, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+  .big-title-bg .big-title {
+    text-align: center;
+    margin-top: 60px;
+    color: white; }
+    /* line 10, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+    .big-title-bg .big-title .big-title-ch {
+      font-size: 18pt;
+      font-weight: bolder; }
+    /* line 14, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+    .big-title-bg .big-title .big-title-en {
+      font-size: 8pt;
+      font-weight: lighter; }
+  /* line 21, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+  .big-title-bg .btn-add {
+    border-radius: 50px;
+    font-size: 11pt;
+    padding: 5px;
+    background: linear-gradient(#ffffff, #f6fcff);
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    width: 46px;
+    margin: auto;
+    top: 200px;
+    box-shadow: 0 0 5px 0px #337ab7;
+    color: #337ab7;
+    transition: all 0.3s; }
+    /* line 37, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+    .big-title-bg .btn-add span {
+      padding: 2px 0 0 12px;
+      font-size: 10pt; }
+    /* line 43, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+    .big-title-bg .btn-add div {
+      font-size: 8pt;
+      margin: 0 auto;
+      width: 24px; }
+    /* line 49, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+    .big-title-bg .btn-add:hover {
+      box-shadow: 0 0 30px 0px #337ab7; }
+
+/* line 55, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+.search-group {
+  margin: 20px 130px 40px; }
+
+/* line 60, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+.book-list {
+  padding: 30px 140px; }
+  /* line 63, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+  .book-list li {
+    color: gray;
+    border-bottom: 1px solid rgba(214, 214, 214, 0.62);
+    padding: 5px 15px; }
+    /* line 68, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+    .book-list li .book-name {
+      font-size: 14pt;
+      font-weight: 500;
+      color: black; }
+      /* line 73, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+      .book-list li .book-name .book-status {
+        color: gray;
+        font-size: 10pt; }
+      /* line 78, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+      .book-list li .book-name .status-ok {
+        color: #5bc916; }
+    /* line 88, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+    .book-list li .book-price {
+      color: orangered;
+      font-weight: bold;
+      font-size: 13pt; }
+    /* line 94, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+    .book-list li .book-btns {
+      padding-top: 40px;
+      text-align: right; }
+
+/********************************************/
+/* line 103, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+.page-title {
+  font-size: 15pt;
+  font-weight: bold;
+  margin: 30px 0; }
+
+/* line 108, D:/Syntheses_Projects/2016-10-07-book-manage/css/book-management.scss */
+.book-form {
+  width: 400px; }
+
+/*# sourceMappingURL=book-management.css.map */

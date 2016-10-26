@@ -1,0 +1,110 @@
+.big-title-bg {
+  background: radial-gradient(#26afff, #257ac3);
+  position: relative;
+
+  .big-title {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    
+    .big-title-ch {
+      font-size: 18pt;
+      font-weight: bolder;
+    }
+    .big-title-en {
+      font-size: 8pt;
+      font-weight: lighter;
+    }
+  }
+  
+  //新增按钮
+  .btn-add {
+    border-radius: 50px;
+    font-size: 11pt;
+    padding: 5px;
+    background: linear-gradient(#ffffff, #f6fcff);
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    width: 46px;
+    margin: auto;
+    top: 200px;
+    box-shadow: 0 0 5px 0px #337ab7;
+    color: #337ab7;
+    transition: all .3s;
+    
+    span {
+      
+      padding: 2px 0 0 12px;
+      font-size: 10pt;
+    }
+    
+    div {
+      font-size: 8pt;
+      margin: 0 auto;
+      width: 24px;
+    }
+    
+    &:hover {
+      box-shadow: 0 0 30px 0px #337ab7;
+    }
+  }
+  
+}
+.search-group {
+  margin: 20px 130px 40px;
+//  box-sizing: border-box;
+}
+
+.book-list {
+  padding: 30px 140px;
+  
+  li {
+    color: gray;
+    border-bottom: 1px solid rgba(214, 214, 214, 0.62);
+    padding: 5px 15px;
+    
+    .book-name {
+      font-size: 14pt;
+      font-weight: 500;
+      color: black;
+      
+      .book-status {
+        color: gray;
+        font-size: 10pt;
+      }
+      
+      .status-ok {
+        color: #5bc916;
+      }
+    }
+    .book-author {
+      
+    }
+    .book-press {
+      
+    }
+    .book-price {
+      color: orangered;
+      font-weight: bold;
+      font-size: 13pt;
+    }
+    
+    .book-btns {
+      padding-top: 40px;
+      text-align: right;
+    }
+  }
+}
+
+
+/********************************************/
+.page-title {
+  font-size: 15pt;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.book-form {
+  width: 400px;
+}
